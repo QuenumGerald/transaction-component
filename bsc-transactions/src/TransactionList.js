@@ -27,7 +27,7 @@ function TransactionList({ apiKey, address }) {
   if (loading) {
     return <div>Loading...</div>;
   }
-console.log(tokenTransfers)
+//console.log(tokenTransfers)
 return (
   <div className="App">
     {tokenTransfers.map((tx, index) => (
